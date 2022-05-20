@@ -38,13 +38,13 @@ https://github.com/YHUSS-SEC/BashBunny-keylogger/blob/90e77237aee5ef87872d5ab5ee
 
 Within the switch.txt file the default location to put the main.exe file is within the /temp folder.
 
-https://github.com/YHUSS-SEC/BashBunny-keylogger/blob/90e77237aee5ef87872d5ab5ee3a055440ecc89c/switch.txt#L11-L14
+https://github.com/YHUSS-SEC/BashBunny-keylogger/blob/f1dba783f01614dd32c30ce3a2b11ad30331e23b/switch.txt#L15-L18
 
-* if you would like to change the file destination of main.exe, you can do so by amending the end of lINE 11.
+* If you would like to change the file destination of main.exe, you can do so by amending the end of lINE 15.
 
-* in LINE 11, the default switch folder is switch1, if you have placed the file into switch2 then you must change this also.
+* On LINE 15, the default switch folder is switch1, if you have placed the file into switch2 then you must change this also.
 
-* on line 14 the default is set to /temp directory, so, whatever file location you changed on LINE 11 must be mirroring the location specified on LINE 14.
+* On line 18 the default is set to /temp directory, so, whatever file location you changed on LINE 15 must be mirroring the location specified on LINE 18.
 
 ### BashBunny Directory Format For File Placement
 
