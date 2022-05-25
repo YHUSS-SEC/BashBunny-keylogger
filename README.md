@@ -58,5 +58,10 @@ https://github.com/YHUSS-SEC/BashBunny-keylogger/blob/f1dba783f01614dd32c30ce3a2
 
 * If you are unsure about the Directory structure or the physical switch positions of the BashBunny there is a [BashBunny-Wiki](https://github.com/hak5/bashbunny-wiki/blob/master/index.md) that will clear things up
 
+## Legal Disclaimer
 
+My program has been created for educational purposes to allow others to test this program in a controlled environment of thier own.
+I will not legally be held accountable for any malicious use of this program.
+
+YHUSS-SEC :)
 
